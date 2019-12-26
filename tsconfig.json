@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+
+		"rootDir": "src",
+		"outDir": "dist",
+		"sourceMap": true,
+		"declaration": true,
+
+		"charset": "utf-8",
+		"newLine": "LF",
+		"strict": true,
+		"noImplicitAny": true,
+		"noEmitOnError": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules", "dist"]
+}
