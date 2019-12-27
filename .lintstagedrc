@@ -1,0 +1,7 @@
+{
+	"**/*.+(js|css|less|scss|ts|md|json)": [
+		"eslint --ignore-pattern '(dist)|(node_modules)' --fix",
+		"git add"
+	],
+	".*rc": ["prettier --parser json --write", "git add"]
+}

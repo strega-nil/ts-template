@@ -14,11 +14,10 @@
 	"homepage": "https://github.com/ubsan/ubserv",
 	"main": "dist/index.js",
 	"scripts": {
-		"install": "tsc",
 		"build": "tsc",
 		"start": "node dist/src",
 		"debug": "node --inspect dist/src",
-		"lint": "tsc --noEmit && eslint \"**/*.{ts,js,json}\" --ignore-pattern dist --fix"
+		"lint": "tsc --noEmit && eslint \"**/*.{ts,js,json}\" --ignore-pattern dist"
 	},
 	"dependencies": {},
 	"devDependencies": {
@@ -28,6 +27,8 @@
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.8.0",
 		"eslint-plugin-prettier": "^3.1.2",
+		"husky": "^3.1.0",
+		"lint-staged": "^9.5.0",
 		"prettier": "^1.19.1",
 		"typescript": "^3.7.4",
 		"yarn": "^1.21.1"
